@@ -52,12 +52,12 @@ Create a file named docker-compose.yml with the following content:
 
 5.2. Run Docker Compose Commands
 Start the services:
-docker-compose up -d
+ - $ docker-compose up -d
 Stop and remove the services:
-docker-compose down
+ - $ docker-compose down
 Access the services at:
-http://localhost:8080 for web1
-http://localhost:8081 for web2
+ - http://localhost:8080 for web1
+ - http://localhost:8081 for web2
 
 
 
