@@ -24,9 +24,9 @@ Set up a PostgreSQL database with custom configurations:
 - $ docker run --name database -p 5435:5432 -e POSTGRES_USER=dsa -e POSTGRES_PASSWORD=dsa1010 -e POSTGRES_DB=dsadb -d postgres:16.0
 
 Parameters:
-  POSTGRES_USER: Sets the database username (dsa).
-  POSTGRES_PASSWORD: Sets the database password (dsa1010).
-  POSTGRES_DB: Creates a database named dsadb.
+  - POSTGRES_USER: Sets the database username (dsa).
+  - POSTGRES_PASSWORD: Sets the database password (dsa1010).
+  - POSTGRES_DB: Creates a database named dsadb.
 Access the database at localhost:5435.
 
 5. Building a Custom Docker Image
