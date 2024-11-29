@@ -15,9 +15,9 @@ Ensure you have the following installed:
 
 Run an Nginx web server on port 8080 using Docker:
 
-bash
-$ docker run -d -p 8080:80 nginx
-Access the server at http://localhost:8080.
+- ## bash
+   - $ docker run -d -p 8080:80 nginx
+   - Access the server at http://localhost:8080.
 
 3. Creating a Custom Database
 Set up a PostgreSQL database with custom configurations:
