@@ -34,8 +34,7 @@ Access the database at localhost:5435.
 Create a file named Dockerfile with the following content:
 ![Screenshot from 2024-11-29 14-21-24](https://github.com/user-attachments/assets/491a98ed-a999-437e-bd33-dff02cdeba00)
 
-4.2. Create a Python Script
-Create a file named testedsa.py with the following content:
+4.2. Create a Python Script and save the file named testedsa.py with the following content:
 print("Olá, Bem-Vindo(a) ao Docker com a DSA!")
 
 4.3. Build the Docker Image
