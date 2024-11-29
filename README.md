@@ -31,7 +31,7 @@ Access the database at localhost:5435.
 
 5. Building a Custom Docker Image
 4.1. Create a Dockerfile
-Create a file named Dockerfile with the following content:
+Create a file named Dockerfile with the following content:&ensp
 ![Screenshot from 2024-11-29 14-21-24](https://github.com/user-attachments/assets/491a98ed-a999-437e-bd33-dff02cdeba00)
 
 4.2. Create a Python Script and save the file named testedsa.py with the following content:
