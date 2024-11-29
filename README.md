@@ -40,8 +40,8 @@ print("Olá, Bem-Vindo(a) ao Docker com a DSA!")
 
 4.3. Build the Docker Image
 Run the following command to build the image:
-$ docker build -t dsa-image .
-- Output:
+$ docker build -t dsa-image . -
+- Output: -
 ![Screenshot from 2024-11-29 14-25-10](https://github.com/user-attachments/assets/7f8bb213-2ff9-4c96-bb9d-46ef909b6d50)
 
 
