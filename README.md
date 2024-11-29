@@ -21,7 +21,7 @@ Access the server at http://localhost:8080.
 
 3. Creating a Custom Database
 Set up a PostgreSQL database with custom configurations:
-$ docker run --name database -p 5435:5432 -e POSTGRES_USER=dsa -e POSTGRES_PASSWORD=dsa1010 -e POSTGRES_DB=dsadb -d postgres:16.0
+- $ docker run --name database -p 5435:5432 -e POSTGRES_USER=dsa -e POSTGRES_PASSWORD=dsa1010 -e POSTGRES_DB=dsadb -d postgres:16.0
 
 Parameters:
   POSTGRES_USER: Sets the database username (dsa).
