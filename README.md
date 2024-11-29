@@ -55,7 +55,7 @@ Create a file named docker-compose.yml with the following content:
    - $ docker-compose up -d
 - Stop and remove the services:
    - $ docker-compose down
-Access the services at:
+- Access the services at:
  - http://localhost:8080 for web1
  - http://localhost:8081 for web2
 
