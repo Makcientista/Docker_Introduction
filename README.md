@@ -22,21 +22,17 @@ Access the server at http://localhost:8080.
 3. Creating a Custom Database
 Set up a PostgreSQL database with custom configurations:
 $ docker run --name database -p 5435:5432 -e POSTGRES_USER=dsa -e POSTGRES_PASSWORD=dsa1010 -e POSTGRES_DB=dsadb -d postgres:16.0
+
 Parameters:
   POSTGRES_USER: Sets the database username (dsa).
   POSTGRES_PASSWORD: Sets the database password (dsa1010).
   POSTGRES_DB: Creates a database named dsadb.
 Access the database at localhost:5435.
 
-4. Building a Custom Docker Image
+5. Building a Custom Docker Image
 4.1. Create a Dockerfile
 Create a file named Dockerfile with the following content:
-
-FROM python:3.11-slim
-
-COPY testedsa.py /testedsa.py
-
-CMD ["python", "/testedsa.py"]
+![Screenshot from 2024-11-29 14-21-24](https://github.com/user-attachments/assets/491a98ed-a999-437e-bd33-dff02cdeba00)
 
 4.2. Create a Python Script
 Create a file named testedsa.py with the following content:
@@ -46,23 +42,14 @@ print("Olá, Bem-Vindo(a) ao Docker com a DSA!")
 Run the following command to build the image:
 $ docker build -t dsa-image .
 Output:
-Olá, Bem-Vindo(a) ao Docker com a DSA!
+![Screenshot from 2024-11-29 14-25-10](https://github.com/user-attachments/assets/7f8bb213-2ff9-4c96-bb9d-46ef909b6d50)
+
 
 5. Using Docker Compose
 5.1. Create a Docker Compose File
 Create a file named docker-compose.yml with the following content:
-version: '3'
+![Screenshot from 2024-11-29 14-19-50](https://github.com/user-attachments/assets/1d4487b3-ab13-422a-9903-711d8d027056)
 
-services:
-  web1:
-    image: nginx
-    ports:
-      - "8080:80"
-
-  web2:
-    image: nginx
-    ports:
-      - "8081:80"
 5.2. Run Docker Compose Commands
 Start the services:
 docker-compose up -d
@@ -71,7 +58,7 @@ docker-compose down
 Access the services at:
 http://localhost:8080 for web1
 http://localhost:8081 for web2
-![Screenshot from 2024-11-29 14-15-57](https://github.com/user-attachments/assets/82aad000-d475-444b-98d2-b9bebe7ba0e2)
+
 
 
 
