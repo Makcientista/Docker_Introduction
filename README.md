@@ -48,6 +48,7 @@ $ docker build -t dsa-image .
 5. Using Docker Compose
 5.1. Create a Docker Compose File
 Create a file named docker-compose.yml with the following content:
+
 ![Screenshot from 2024-11-29 14-19-50](https://github.com/user-attachments/assets/1d4487b3-ab13-422a-9903-711d8d027056)
 
 5.2. Run Docker Compose Commands
